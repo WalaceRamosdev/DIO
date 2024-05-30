@@ -1,3 +1,4 @@
+package edu.walace.primeirasemana;
 public class MinhaClasse01 {
     public static void main (String [] args ) {
         String primeiroNome = "Walace";
