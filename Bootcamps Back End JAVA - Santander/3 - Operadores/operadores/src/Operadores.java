@@ -3,7 +3,10 @@ public class Operadores {
         
         double soma = 10.5 + 15.7;
         int subtração = 113 - 25;
+        int multiplicação = 20 * 7;
+        int divisão = 15 / 3;
+        int modulo
 
-        System.out.println(subtração);
+        System.out.println(divisão);
     }
 }
