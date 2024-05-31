@@ -1,12 +1,12 @@
 public class CaixaEletronico {
     public static void main(String[] args) throws Exception {
         
-        double saldo = 25.0;
-        double valorSolicitado = 17.0;
+        int nota = 8;
 
-        if (valorSolicitado < saldo)
-        saldo = saldo - valorSolicitado;
-        System.out.println(saldo);
-    
+        if (nota >= 7)
+        System.out.println("Aprovado");
+
+        else
+        System.out.println("Reprovado");
     }       
 }
