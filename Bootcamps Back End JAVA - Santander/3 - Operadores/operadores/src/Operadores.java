@@ -5,8 +5,8 @@ public class Operadores {
         int subtração = 113 - 25;
         int multiplicação = 20 * 7;
         int divisão = 15 / 3;
-        int modulo
+        int modulo = 18 % 3;
 
-        System.out.println(divisão);
+        System.out.println(modulo);
     }
 }
