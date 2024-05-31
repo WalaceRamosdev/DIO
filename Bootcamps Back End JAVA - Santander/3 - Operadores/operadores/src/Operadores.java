@@ -6,7 +6,8 @@ public class Operadores {
         int multiplicação = 20 * 7;
         int divisão = 15 / 3;
         int modulo = 18 % 3;
+        double resultado = (10 * 7) + (20 / 4);
 
-        System.out.println(modulo);
+        System.out.println(resultado);
     }
 }
