@@ -23,7 +23,6 @@ public class Praticando {
         if (saque <= saldoTotal) {
             System.out.println("Saque autorizado. Obrigado pela preferência");
             System.out.println("Seu saldo atual é de: R$ " + (saldoTotal - saque));
-            
         }
         
         else {
