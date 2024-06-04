@@ -21,6 +21,7 @@ public class App {
 
     static void c() {
         System.out.println("Entrou no método c.");
+        Thread.dumpStack();
         System.out.println("Finalizou o método c.");
     }
 }
