@@ -9,7 +9,7 @@ public class Excepcional {
 
             Scanner scanner = new Scanner(System.in).useLocale(Locale.US);
 
-            System.out.println("Digite seu nome: ");
+            System.out.println("Digite o seu nome: ");
             String nome = scanner.next();
 
             System.out.println("Digite seu sobrenome: ");
