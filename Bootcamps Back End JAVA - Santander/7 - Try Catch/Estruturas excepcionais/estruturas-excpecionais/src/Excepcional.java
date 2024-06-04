@@ -12,7 +12,7 @@ public class Excepcional {
             System.out.println("Digite o seu nome: ");
             String nome = scanner.next();
 
-            System.out.println("Digite seu sobrenome: ");
+            System.out.println("Digite o seu sobrenome: ");
             String sobreNome = scanner.next();
 
             System.out.println("Digite a sua idade: ");
