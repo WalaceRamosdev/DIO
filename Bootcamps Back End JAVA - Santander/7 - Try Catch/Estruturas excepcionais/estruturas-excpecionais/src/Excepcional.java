@@ -27,6 +27,7 @@ public class Excepcional {
         } 
         catch (InputMismatchException e) {
             System.out.println("Os campos idade e altura precisam ser numéricos e separados por ponto '.'");
+            
         }
     }
 }
