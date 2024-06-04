@@ -1,3 +1,4 @@
+import java.util.InputMismatchException;
 import java.util.Scanner;
 
 public class VerificadorNumeroConta {
@@ -6,27 +7,28 @@ public class VerificadorNumeroConta {
         Scanner scanner = new Scanner(System.in);
 
         try {
-
             String numeroConta = scanner.nextLine();
+            verificarNumeroConta(numeroConta);
 
-            // TODO: Chamar o método que veritica se o número da conta é valido
-            
-            // Caso nenhuma exceção seja lançada, imprime a mensagem de sucesso.
             System.out.println("Numero de conta valido.");
-        } 
-        catch (IllegalArgumentException e) {
-            // TODO: Informar que o número de conta é inválido e exibir a mensagem de erro
-            System.out.println("Erro: " + e.getMessage());
+
+        } catch (InputMismatchException e) {
+            
+            System.out.println("Erro: Numero de conta invalido. Digite exatamente 8 digitos.");
+            
         } finally {
             // Fechar o scanner para evitar vazamentos de recursos
             scanner.close();
         }
     }
 
-    private static void verificarNumeroConta(String numeroConta) {
-        
+    private static void verificarNumeroConta(String numeroConta) throws InputMismatchException {
+
         if (numeroConta.length() != 8) {
-            System.out.println("Número de conta inválido. Digite extamente 8 digitos");
+            
+            throw new InputMismatchException("Erro: Numero de conta invalido. Digite exatamente 8 digitos.");
+
+            
         }
     }
 }
