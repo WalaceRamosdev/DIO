@@ -1,6 +1,9 @@
 public class SistemaDeSelecao {
     public static void main(String[] args) throws Exception {
-        System.out.println("Processo seletivo");
+    }
+
+    static void selecaoCandidatos() {
+        String [] candidatos = {"Walace", "Palloma", };
     }
 
     static void analisarCandidatos(double salarioPretendido) {
