@@ -3,7 +3,7 @@ public class SistemaDeSelecao {
     }
 
     static void selecaoCandidatos() {
-        String [] candidatos = {"Walace", "Palloma", };
+        String [] candidatos = {"Walace", "Palloma", "Gabriel",};
     }
 
     static void analisarCandidatos(double salarioPretendido) {
