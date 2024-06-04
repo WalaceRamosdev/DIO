@@ -4,6 +4,23 @@ public class SistemaDeSelecao {
     public static void main(String[] args) throws Exception {
     }
 
+    static void imprimirSelecionados() {
+        String [] candidatos1 = {"Walace", "Palloma", "Gabriel", "Camila", "Leonardo"};
+        
+        System.out.println("Imprimindo a lista de candidatos informando o indice de elemento.");
+
+        for( int indice = 0; indice <  candidatos1.length; indice++){
+            System.out.println("O candidato de n° " + (indice + 1) + " é o" + candidatos1[indice]);
+        }
+
+        System.out.println("Forma abreviada de interação 'for each'");
+
+        for(String candidato: candidatos1) {
+            System.out.println("O candidato selecionado foi " + candidatos1);
+        }
+
+    }
+
     static void selecaoCandidatos() {
         String [] candidatos = {"Walace", "Palloma", "Gabriel", "Camila", "Leonardo", "Lara", "Telma", "Willians", "Clayton", "Roni"};
 
