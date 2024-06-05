@@ -1,5 +1,4 @@
-
-public class Lanchonete {
+public class Cozinheiro {
 	//pode ser default
 	public void adicionarLancheNoBalcao() {
 		System.out.println("ADICIONANDO LANCHE NATURAL HAMBÚRGUER NO BALCÃO");
