@@ -16,9 +16,9 @@ public class MSNMessenger {
 	
 	//métodos privadas, visíveis somente na classe
 	private void validarConectadoInternet() {
-		System.out.println("Validando se está conectado a internet");
+		System.out.println("Validando se esta conectado a internet");
 	}
 	private void salvarHistoricoMensagem() {
-		System.out.println("Salvando o histórico da mensagem");
+		System.out.println("Salvando o historico da mensagem");
 	}
 }
