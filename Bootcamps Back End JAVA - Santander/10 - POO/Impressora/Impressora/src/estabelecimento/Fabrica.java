@@ -1,13 +1,11 @@
 package estabelecimento;
 
-import Equipamentos.impressora.DeskJet;
 import Equipamentos.impressora.Impressora;
-import Equipamentos.impressora.LaserJet;
-import Equipamentos.multifuncional.EquipamentoMultiFuncional;
+import Equipamentos.multifuncional.EquipamentosMultiFuncional;
 
 public class Fabrica {
     public static void main(String[] args) {
-        Impressora impressora = new EquipamentoMultiFuncional();
+        Impressora impressora = new EquipamentosMultiFuncional();
 
         impressora.imprimir();
     }
