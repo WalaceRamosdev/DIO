@@ -10,5 +10,8 @@ public class Autodromo {
         xj6.setChassie("13201997");
         xj6.ligar();
 
+        Veiculo coringa = jeep;
+        coringa.ligar();
+
     }
 }
