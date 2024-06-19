@@ -8,6 +8,7 @@ public class Autodromo {
         Moto xj6 = new Moto();
 
         xj6.setChassie("13201997");
+        xj6.ligar();
 
     }
 }

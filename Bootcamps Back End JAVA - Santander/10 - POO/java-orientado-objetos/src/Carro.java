@@ -1,16 +1,8 @@
 
 
-public class Carro {
+public class Carro extends Veiculo {
 
-    private String chassie;
-    public String getChassie () {
-        return chassie;
-    }
-
-    public void setChassie(String chassie) {
-        this.chassie = chassie;
-    }
-
+    
     public void ligar() {
         confereCambio();
         confereCombustivel();

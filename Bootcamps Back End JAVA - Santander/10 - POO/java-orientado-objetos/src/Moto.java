@@ -1,14 +1,9 @@
 
 
-public class Moto {
+public class Moto extends Veiculo {
 
-    private String chassie;
-    public String getChassie () {
-        return chassie;
-    }
-
-    public void setChassie(String chassie) {
-        this.chassie = chassie;
+    public void ligar() {
+        System.out.println("Moto ligada");
     }
 
 }
