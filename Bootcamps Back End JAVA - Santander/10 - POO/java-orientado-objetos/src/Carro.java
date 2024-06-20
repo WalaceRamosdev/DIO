@@ -1,8 +1,6 @@
 
-
 public class Carro extends Veiculo {
 
-    
     public void ligar() {
         confereCambio();
         confereCombustivel();
